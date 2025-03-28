@@ -1,0 +1,7 @@
+{
+  "name": "turbowarp cfp",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "git clone https://github.com/TurboWarp/scratch-gui.git && cd scratch-gui && npm install && npm run build && cp -r build/* ../"
+  }
+}
